@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<title>ThreeVR</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div id="title">
+		<h1>Akatsuki's ThreeVR</h1>
+		<input id="check" type="button" value="start" onclick="check()" disabled>
+		<p>
+			<div id="txt"></div>
+		</p>
+		<p>
+			詳細<br>
+			<span id="test"></span>
+		</p>
+		<p>
+			<a href="http://twitter.com/nomber1910">twitter</a>
+		</p>
+	</div>
+	<div id="canvas-wrapper-main" class="canvas-wrapper-main">
+		<div id="loadingWrapper" class="loading-wrapper">
+			<div id="load">
+				<div>G</div>
+				<div>N</div>
+				<div>I</div>
+				<div>D</div>
+				<div>A</div>
+				<div>O</div>
+				<div>L</div>
+			</div>
+		</div>
+		<div id="pixiview" class="canvas-wrapper">
+			<canvas></canvas>
+		</div>
+		<div id="nipple" class="nipple">
+			<span id="xzBox" class="xz-box"></span>
+			<span id="yBox" class="y-box"></span>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>

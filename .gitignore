@@ -1,0 +1,7 @@
+node_modules/
+.jshintrc
+.babelrc
+.yo-rc.json
+package-lock.json
+yarn.lock
+dist/index.css.map
